@@ -1,7 +1,7 @@
 function slugify(title) {
   
  let string = [title.toLowerCase()];
-zlet slug = string.join("-");
+ let slug = string.join("-");
   
   return slug;
 }
