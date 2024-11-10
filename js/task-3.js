@@ -1,7 +1,11 @@
-function filterArray(numbers, value){
-    
-    
-
+function filterArray(numbers, value) {
+  const newmas = [];
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > value) {
+      newmas.push(numbers[i]);
+    }
+  }
+  return newmas;
 }
 
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
